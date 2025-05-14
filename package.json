@@ -1,13 +1,17 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "juan-pablo-alzate",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rifas2025Luzma/Juanpablo23.git"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
