@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue-900: #1e3a8a;
+  --gold-400: #fbbf24;
+  --gold-500: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+@layer components {
+  .text-gold-300 {
+    color: #fcd34d;
+  }
+  .text-gold-400 {
+    color: #fbbf24;
+  }
+  .text-gold-500 {
+    color: #f59e0b;
+  }
+  .text-gold-600 {
+    color: #d97706;
+  }
+  
+  .bg-gold-300 {
+    background-color: #fcd34d;
+  }
+  .bg-gold-400 {
+    background-color: #fbbf24;
+  }
+  .bg-gold-500 {
+    background-color: #f59e0b;
+  }
+  .bg-gold-600 {
+    background-color: #d97706;
+  }
+  
+  .border-gold-400 {
+    border-color: #fbbf24;
+  }
+  .border-gold-500 {
+    border-color: #f59e0b;
+  }
+  
+  .hover\:text-gold-300:hover {
+    color: #fcd34d;
+  }
+  .hover\:text-gold-400:hover {
+    color: #fbbf24;
+  }
+  
+  .hover\:bg-gold-400:hover {
+    background-color: #fbbf24;
+  }
+  .hover\:bg-gold-600:hover {
+    background-color: #d97706;
+  }
+  
+  .hover\:border-gold-400:hover {
+    border-color: #fbbf24;
+  }
+}
